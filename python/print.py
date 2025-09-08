@@ -1,1 +1,5 @@
 print("hello darshil")
+print("hello world")
+print("hello everyone")
+print("hello all")
+print(1*7)
