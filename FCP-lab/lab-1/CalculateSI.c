@@ -1,4 +1,5 @@
-// PROGRAM TO CALCULATE SIMPLE INTEREST.
+// 1.PROGRAM TO CALCULATE SIMPLE INTEREST.
+
 #include<stdio.h>
 int main(){
     float principal;
