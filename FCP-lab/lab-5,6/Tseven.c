@@ -1,34 +1,51 @@
-
-
-// Q71. FIND LARGEST AND SMALLEST ELEMENT USING POINTERS
+// Q71. FIND PIVOT ELEMENT OF A SORTED AND ROTATED ARRAY USING BINARY SEARCH
 
 #include <stdio.h>
 
+int find_pivot(int arr[], int n) {
+    int low = 0, high = n - 1;
+
+    if (n == 0) return -1;
+    if (arr[low] <= arr[high]) // not rotated
+        return -1;
+
+    while (low <= high) {
+        int mid = low + (high - low) / 2;
+
+        if (mid < high && arr[mid] > arr[mid + 1])
+            return mid + 1;              // pivot is mid+1
+        if (mid > low && arr[mid] < arr[mid - 1])
+            return mid;                  // pivot is mid
+
+        // Decide which half to go
+        if (arr[mid] >= arr[low])
+            low = mid + 1;
+        else
+            high = mid - 1;
+    }
+
+    return -1;
+}
+
 int main() {
     int n, i;
-    int a[50];
-    int *ptr;
+    int arr[100];
 
     printf("Enter number of elements: ");
-    scanf("%d", &n);
-
-    printf("Enter %d elements:\n", n);
-    for (i = 0; i < n; i++) {
-        scanf("%d", &a[i]);
+    if (scanf("%d", &n) != 1 || n <= 0) {
+        printf("Invalid size.\n");
+        return 0;
     }
 
-    ptr = a;
-    int max = *ptr, min = *ptr;
+    printf("Enter %d sorted-rotated elements:\n", n);
+    for (i = 0; i < n; i++) scanf("%d", &arr[i]);
 
-    for (i = 1; i < n; i++) {
-        if (*(ptr + i) > max)
-            max = *(ptr + i);
-        if (*(ptr + i) < min)
-            min = *(ptr + i);
-    }
-
-    printf("\nLargest element = %d", max);
-    printf("\nSmallest element = %d\n", min);
+    int p = find_pivot(arr, n);
+    if (p == -1)
+        printf("No pivot found (array not rotated or single increasing sequence).\n");
+    else
+        printf("Pivot index = %d, Pivot element = %d\n", p, arr[p]);
 
     return 0;
 }
+
