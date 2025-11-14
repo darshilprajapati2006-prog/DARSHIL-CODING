@@ -14,7 +14,7 @@ int main() {
 
     while(n > 0) {
         remainder = n % 10;
-        sum = sum + (remainder * remainder * remainder);
+        sum = sum + (remainder * remainder * remainder*remainder);
         n = n / 10;
     }
 

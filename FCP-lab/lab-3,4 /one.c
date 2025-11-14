@@ -24,6 +24,6 @@ int main() {
         y = 1 + n * x;
     }
 
-    printf("Value of Y(x,n) = %.2f\n", y);
+    printf("Value of Y(x,n) = %.3f\n", y);
     return 0;
 }

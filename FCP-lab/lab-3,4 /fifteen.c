@@ -3,6 +3,7 @@
 */
 
 #include <stdio.h>
+#include <math.h>
 
 int main() {
     int n, i;
@@ -11,7 +12,7 @@ int main() {
     scanf("%d", &n);
 
     printf("Series: ");
-    for(i = 1; i <= n; i++) {
+    for(i = 1; i <= sqrt(n); i++) {
         printf("%d ", i * i);
     }
 
