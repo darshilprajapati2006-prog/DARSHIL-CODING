@@ -5,6 +5,18 @@ struct Book {
     char author[50];
     float price;
 };
+    void readBook(struct Book *b);
+    void displayBook(struct Book *b);
+
+    int main() {
+    struct Book b;
+
+    readBook(&b);
+    displayBook(&b);
+
+    return 0;
+}
+
 
 void readBook(struct Book *b) {
     printf("Enter title: ");
@@ -24,11 +36,3 @@ void displayBook(struct Book *b) {
     printf("Price: %.2f\n", b->price);
 }
 
-int main() {
-    struct Book b;
-
-    readBook(&b);
-    displayBook(&b);
-
-    return 0;
-}
