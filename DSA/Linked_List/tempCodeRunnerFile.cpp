@@ -1,1 +1,1 @@
-Node* temp = head;
+return
