@@ -19,6 +19,35 @@ void print(stack<int> st){
     }
     cout<<endl;
 }
+void pushAtBottom(stack<int>& st, int val){
+    stack<int> temp;
+     while(st.size()>0){
+        int x = st.top();         
+        st.pop();
+        temp.push(x);
+    }
+    st.push(val);
+    while(temp.size()>0){
+        int x = temp.top();        
+        temp.pop();
+        st.push(x);
+    }
+
+}void pushAtIdx(stack<int>& st,int idx,  int val){
+    stack<int> temp;
+     while(st.size()>idx){
+        int x = st.top();         
+        st.pop();
+        temp.push(x);
+    }
+    st.push(val);
+    while(temp.size()>0){
+        int x = temp.top();        
+        temp.pop();
+        st.push(x);
+    }
+
+}
 int main(){
     stack<int> st;
     st.push(10);
@@ -27,22 +56,8 @@ int main(){
     st.push(40);
     st.push(50);
     print(st);
-    stack<int> temp;
-    
-    //empty st to temp
-    while(st.size()>0){
-        temp.push(st.top());
-        st.pop();
-    }
-    //empty st to push bottom any element
-
-    st.push(60);
-
-    //empty temp to st
-    while(temp.size()>0){
-        st.push(temp.top());
-        temp.pop();
-    }
-   
+    pushAtBottom(st,7);
+    print(st);
+    pushAtIdx(st,2,45);
     print(st);
 }
