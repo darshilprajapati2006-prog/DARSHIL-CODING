@@ -1,0 +1,11 @@
+Main (next) nodes ki sankhya:3
+Main node 1 ki value: 2
+Is node ke bottom mein kitne elements hain?2
+1 4
+Main node 2 ki value:3
+Is node ke bottom mein kitne elements hain?1
+3
+Main node 3 ki value:4
+Is node ke bottom mein kitne elements hain?3
+1 5 8
+Flattened Sorted List: 1 -> 1 -> 2 -> 3 -> 3 -> 4 -> 4 -> 5 -> 8 -> NULL

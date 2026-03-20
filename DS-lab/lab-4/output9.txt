@@ -1,0 +1,1 @@
+Common nodes ki sankhya: Common elements: List 1 ke baki nodes: Elements: List 2 ke baki nodes: Elements: Output: 2

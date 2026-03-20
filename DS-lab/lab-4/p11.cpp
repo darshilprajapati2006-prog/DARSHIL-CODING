@@ -46,12 +46,14 @@ Node* mergeKLists(vector<Node*>& lists) {
 
 int main() {
     int k;
+    cout << "Enter number of linked lists (k): ";
     cin >> k;
 
     vector<Node*> lists(k);
 
     for (int i = 0; i < k; i++) {
         int n;
+        cout << "Enter number of elements in list " << i + 1 << ": ";
         cin >> n;
 
         Node* head = NULL;
@@ -59,6 +61,7 @@ int main() {
 
         for (int j = 0; j < n; j++) {
             int val;
+            cout << "Enter element " << j + 1 << ": ";
             cin >> val;
             Node* newNode = new Node(val);
 

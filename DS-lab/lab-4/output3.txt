@@ -1,0 +1,9 @@
+Sorted numbers enter karein (-1 dabayein khatam karne ke liye): 
+1
+2
+4
+6
+7
+9
+-1
+Result: 1 -> 2 -> 4 -> 6 -> 7 -> 9 -> NULL

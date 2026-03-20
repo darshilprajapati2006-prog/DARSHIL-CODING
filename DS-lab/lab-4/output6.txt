@@ -1,0 +1,2 @@
+Nodes ki sankhya: Elements enter karein: 1 5 78 2 8
+Output: Not a Palindrome
