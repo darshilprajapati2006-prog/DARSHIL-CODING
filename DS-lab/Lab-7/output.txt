@@ -1,0 +1,56 @@
+
+1. Enqueue
+2. Dequeue
+3. Display
+4. Peek
+5. Exit
+Enter choice: Enter value: 12 inserted
+
+1. Enqueue
+2. Dequeue
+3. Display
+4. Peek
+5. Exit
+Enter choice: Enter value: 13 inserted
+
+1. Enqueue
+2. Dequeue
+3. Display
+4. Peek
+5. Exit
+Enter choice: Enter value: 15 inserted
+
+1. Enqueue
+2. Dequeue
+3. Display
+4. Peek
+5. Exit
+Enter choice: Queue elements: 12 13 15 
+
+1. Enqueue
+2. Dequeue
+3. Display
+4. Peek
+5. Exit
+Enter choice: Front element: 12
+
+1. Enqueue
+2. Dequeue
+3. Display
+4. Peek
+5. Exit
+Enter choice: 12 removed
+
+1. Enqueue
+2. Dequeue
+3. Display
+4. Peek
+5. Exit
+Enter choice: Queue elements: 13 15 
+
+1. Enqueue
+2. Dequeue
+3. Display
+4. Peek
+5. Exit
+Enter choice: Exiting...

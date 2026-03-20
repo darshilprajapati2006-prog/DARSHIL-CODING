@@ -1,0 +1,93 @@
+
+1. Enqueue
+2. Display
+3. Count
+4. Sum
+5. Min
+6. Max
+7. Reverse
+8. Exit
+Enter choice: How many elements to insert: Enter value: 1 inserted
+Enter value: 2 inserted
+Enter value: 3 inserted
+Enter value: 4 inserted
+
+1. Enqueue
+2. Display
+3. Count
+4. Sum
+5. Min
+6. Max
+7. Reverse
+8. Exit
+Enter choice: Queue elements: 1 2 3 4 
+
+1. Enqueue
+2. Display
+3. Count
+4. Sum
+5. Min
+6. Max
+7. Reverse
+8. Exit
+Enter choice: Count: 4
+
+1. Enqueue
+2. Display
+3. Count
+4. Sum
+5. Min
+6. Max
+7. Reverse
+8. Exit
+Enter choice: Sum: 10
+
+1. Enqueue
+2. Display
+3. Count
+4. Sum
+5. Min
+6. Max
+7. Reverse
+8. Exit
+Enter choice: Min: 1
+
+1. Enqueue
+2. Display
+3. Count
+4. Sum
+5. Min
+6. Max
+7. Reverse
+8. Exit
+Enter choice: Max: 4
+
+1. Enqueue
+2. Display
+3. Count
+4. Sum
+5. Min
+6. Max
+7. Reverse
+8. Exit
+Enter choice: Queue Reversed
+
+1. Enqueue
+2. Display
+3. Count
+4. Sum
+5. Min
+6. Max
+7. Reverse
+8. Exit
+Enter choice: Queue elements: 4 3 2 1 
+
+1. Enqueue
+2. Display
+3. Count
+4. Sum
+5. Min
+6. Max
+7. Reverse
+8. Exit
+Enter choice: Exiting...

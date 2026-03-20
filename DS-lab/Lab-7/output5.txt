@@ -1,0 +1,12 @@
+
+1. Check Palindrome
+2. Exit
+Enter choice: Enter string: Result: Not Palindrome
+
+1. Check Palindrome
+2. Exit
+Enter choice: Enter string: Result: Palindrome
+
+1. Check Palindrome
+2. Exit
+Enter choice: Exiting...

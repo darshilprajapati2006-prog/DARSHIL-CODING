@@ -1,0 +1,49 @@
+
+1. Enqueue
+2. Dequeue
+3. Display
+4. Peek
+5. Exit
+Enter choice: Enter value: 3 inserted
+
+1. Enqueue
+2. Dequeue
+3. Display
+4. Peek
+5. Exit
+Enter choice: Enter value: 4 inserted
+
+1. Enqueue
+2. Dequeue
+3. Display
+4. Peek
+5. Exit
+Enter choice: Enter value: 6 inserted
+
+1. Enqueue
+2. Dequeue
+3. Display
+4. Peek
+5. Exit
+Enter choice: Enter value: 7 inserted
+
+1. Enqueue
+2. Dequeue
+3. Display
+4. Peek
+5. Exit
+Enter choice: Queue elements: 3 4 6 7 
+
+1. Enqueue
+2. Dequeue
+3. Display
+4. Peek
+5. Exit
+Enter choice: Front element: 3
+
+1. Enqueue
+2. Dequeue
+3. Display
+4. Peek
+5. Exit
+Enter choice: Exiting...
